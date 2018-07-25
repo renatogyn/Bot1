@@ -18,6 +18,8 @@ server.listen(port, () => {
 })
 
 const connector = new builder.ChatConnector({
+  //MICROSOFT_APP_ID: process.env.MICROSOFT_APP_ID,
+  //MICROSOFT_APP_PASSWORD: process.env.MICROSOFT_APP_PASSWORD
   appId: process.env.MICROSOFT_APP_ID,
   appPassword: process.env.MICROSOFT_APP_PASSWORD
 })
